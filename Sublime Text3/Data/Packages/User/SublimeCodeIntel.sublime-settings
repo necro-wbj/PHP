@@ -1,0 +1,9 @@
+{
+"PHP":{
+    "php": "D:\\xampp\\php\\php.exe",
+    "codeintel_scan_extra_dir": [],
+    "codeintel_scan_files_in_project": true,
+    "codeintel_max_recursive_dir_depth": 15,
+    "codeintel_scan_exclude_dir":["/Applications/MAMP/bin/php/php5.5.3/"]
+}
+}

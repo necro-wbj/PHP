@@ -1,0 +1,12 @@
+{
+    "python_interpreter": "G:\\Python\\Python36\\python.exe",
+    "anaconda_linting": true,
+    "anaconda_linting_behaviour": "always",
+    "pep257": false,
+    "test_command": "python -m unittest discover",
+    "use_pylint": false,
+    "validate_imports": true,
+    "suppress_word_completions": true,
+    "suppress_explicit_completions": true,
+    "complete_parameters": true,
+}

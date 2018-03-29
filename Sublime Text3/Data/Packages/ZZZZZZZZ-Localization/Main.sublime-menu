@@ -1,0 +1,52 @@
+[
+    {
+        "id": "file", 
+        "mnemonic": "F", 
+        "caption": "檔案(F)"
+    }, 
+    {
+        "id": "edit", 
+        "mnemonic": "E", 
+        "caption": "編輯(E)"
+    }, 
+    {
+        "id": "selection", 
+        "mnemonic": "S", 
+        "caption": "選擇(S)"
+    }, 
+    {
+        "id": "find", 
+        "mnemonic": "I", 
+        "caption": "尋找(I)"
+    }, 
+    {
+        "id": "view", 
+        "mnemonic": "V", 
+        "caption": "檢視(V)"
+    }, 
+    {
+        "id": "goto", 
+        "mnemonic": "G", 
+        "caption": "前往(G)"
+    }, 
+    {
+        "id": "tools", 
+        "mnemonic": "T", 
+        "caption": "工具(T)"
+    }, 
+    {
+        "id": "project", 
+        "mnemonic": "P", 
+        "caption": "專案(P)"
+    }, 
+    {
+        "id": "preferences", 
+        "mnemonic": "N", 
+        "caption": "設定(N)"
+    }, 
+    {
+        "id": "help", 
+        "mnemonic": "H", 
+        "caption": "說明(H)"
+    }
+]
