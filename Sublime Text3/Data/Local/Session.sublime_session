@@ -159,15 +159,6 @@
 			"buffers":
 			[
 				{
-					"file": "/C/Users/user/Desktop/test.py",
-					"settings":
-					{
-						"buffer_size": 9,
-						"encoding": "UTF-8",
-						"line_ending": "Windows"
-					}
-				},
-				{
 					"contents": "",
 					"file": "/G/Sublime Text3/Data/Packages/User/SublimeREPL.sublime-settings",
 					"file_size": -1,
@@ -227,6 +218,7 @@
 			},
 			"file_history":
 			[
+				"/C/Users/user/Desktop/test.py",
 				"/G/Sublime Text3/Data/Packages/User/Anaconda.sublime-settings",
 				"/G/Sublime Text3/Data/Packages/Anaconda/Anaconda.sublime-settings",
 				"/G/Sublime Text3/Data/Packages/SublimeCodeIntel/SublimeCodeIntel.sublime-settings",
@@ -236,7 +228,7 @@
 			],
 			"find":
 			{
-				"height": 40.0
+				"height": 23.0
 			},
 			"find_in_files":
 			{
@@ -271,51 +263,11 @@
 			"groups":
 			[
 				{
-					"selected": 1,
+					"selected": 0,
 					"sheets":
 					[
 						{
 							"buffer": 0,
-							"file": "/C/Users/user/Desktop/test.py",
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 9,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										9,
-										9
-									]
-								],
-								"settings":
-								{
-									"auto_complete_triggers":
-									[
-										{
-											"characters": ".",
-											"selector": "source.python - string - comment - constant.numeric"
-										},
-										{
-											"characters": ".",
-											"selector": "source.python - string - constant.numeric"
-										}
-									],
-									"is_init_dirty_state": false,
-									"syntax": "Packages/Python/Python.sublime-syntax"
-								},
-								"translation.x": 0.0,
-								"translation.y": 0.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 2,
-							"type": "text"
-						},
-						{
-							"buffer": 1,
 							"file": "/G/Sublime Text3/Data/Packages/User/SublimeREPL.sublime-settings",
 							"semi_transient": false,
 							"settings":
@@ -333,6 +285,7 @@
 								],
 								"settings":
 								{
+									"is_init_dirty_state": true,
 									"syntax": "Packages/JavaScript/JSON.sublime-syntax"
 								},
 								"translation.x": 0.0,
@@ -343,7 +296,7 @@
 							"type": "text"
 						},
 						{
-							"buffer": 2,
+							"buffer": 1,
 							"file": "/G/Sublime Text3/Data/Packages/SublimeREPL/SublimeREPL.sublime-settings",
 							"semi_transient": false,
 							"settings":
@@ -361,6 +314,7 @@
 								],
 								"settings":
 								{
+									"is_init_dirty_state": false,
 									"origin_encoding": "ASCII",
 									"syntax": "Packages/JavaScript/JSON.sublime-syntax",
 									"translate_tabs_to_spaces": false
