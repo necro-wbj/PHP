@@ -34,6 +34,10 @@ Servers\Unnamed\SSL_Cert<|||>1<|||>
 Servers\Unnamed\SSL_CA<|||>1<|||>
 Servers\Unnamed\SSL_Cipher<|||>1<|||>
 Servers\Unnamed\ServerVersionFull<|||>1<|||>10.1.25-MariaDB - mariadb.org binary distribution
-Servers\Unnamed\ConnectCount<|||>3<|||>1
+Servers\Unnamed\ConnectCount<|||>3<|||>2
 Servers\Unnamed\ServerVersion<|||>3<|||>100125
-Servers\Unnamed\LastConnect<|||>1<|||>2018-03-29 13:50:38
+Servers\Unnamed\LastConnect<|||>1<|||>2018-04-12 13:27:56
+Servers\Unnamed\RefusedCount<|||>3<|||>3
+Servers\Unnamed\QueryHistory\1<|||>1<|||>2018-04-12 14:44:29|test|0|CREATE DATABASE test0329 DEFAULT CHARACTER SET 'utf8' DEFAULT COLLATE 'utf8_general_ci';
+Servers\Unnamed\QueryHistory\2<|||>1<|||>2018-04-12 14:44:42|test|47|CREATE USER 'mememe'@'localhost' IDENTIFIED BY '123456';<{{{><}}}><{{{><}}}>GRANT ALL PRIVILEGES ON test0329.* TO 'mememe'@'localhost';<{{{><}}}><{{{><}}}>FLUSH PRIVILEGES;
+Servers\Unnamed\QueryHistory\3<|||>1<|||>2018-04-12 14:44:55|test0329|172|USE test0329;<{{{><}}}><{{{><}}}>CREATE TABLE moneybook (<{{{><}}}>  m_id INT UNSIGNED NOT NULL AUTO_INCREMENT PRIMARY KEY,<{{{><}}}>  name VARCHAR(200),<{{{><}}}>  cost INT<{{{><}}}>) CHARACTER SET 'utf8' COLLATE 'utf8_general_ci';

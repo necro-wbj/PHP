@@ -1,5 +1,6 @@
 {
-	"font_size": 28,
+	"font_face": "微軟正黑",
+	"font_size": 20,
 	"ignored_packages":
 	[
 		"Vintage"

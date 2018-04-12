@@ -3,7 +3,7 @@
 	[
 	],
 	"last_version": 3143,
-	"last_window_id": 2,
+	"last_window_id": 4,
 	"log_indexing": false,
 	"settings":
 	{
@@ -14,6 +14,30 @@
 			{
 				"selected_items":
 				[
+					[
+						"pr",
+						"prod"
+					],
+					[
+						"e",
+						"empty"
+					],
+					[
+						"in",
+						"input\tTag"
+					],
+					[
+						"ac",
+						"action\tAttr"
+					],
+					[
+						"fr",
+						"form\tTag"
+					],
+					[
+						"h",
+						"head\tTag"
+					]
 				]
 			},
 			"build_system_choices":
@@ -22,7 +46,7 @@
 			"build_varint": "",
 			"command_palette":
 			{
-				"height": 326.0,
+				"height": 203.0,
 				"last_filter": "Package Control: ins",
 				"selected_items":
 				[
@@ -35,7 +59,7 @@
 						"Package Control: Install Package"
 					]
 				],
-				"width": 412.0
+				"width": 444.0
 			},
 			"console":
 			{
@@ -55,12 +79,21 @@
 			},
 			"file_history":
 			[
+				"/D/xampp/htdocs/Sublime Text3/Data/Packages/SublimeREPL/SublimeREPL.sublime-settings",
+				"/D/xampp/htdocs/Sublime Text3/Data/Packages/User/SublimeREPL.sublime-settings",
+				"/G/Sublime Text3/Data/Packages/SublimeREPL/SublimeREPL.sublime-settings",
+				"/G/Sublime Text3/Data/Packages/User/SublimeREPL.sublime-settings",
+				"/C/Users/user/Desktop/test.py",
+				"/G/Sublime Text3/Data/Packages/User/Anaconda.sublime-settings",
+				"/G/Sublime Text3/Data/Packages/Anaconda/Anaconda.sublime-settings",
+				"/G/Sublime Text3/Data/Packages/SublimeCodeIntel/SublimeCodeIntel.sublime-settings",
 				"/G/Sublime Text3/Data/Packages/User/SublimeCodeIntel.sublime-settings",
+				"/G/Sublime Text3/Data/Packages/Anaconda/README.md",
 				"/G/Sublime Text3/Data/Packages/ConvertToUTF8/ConvertToUTF8.sublime-settings"
 			],
 			"find":
 			{
-				"height": 40.0
+				"height": 51.0
 			},
 			"find_in_files":
 			{
@@ -74,6 +107,9 @@
 				"case_sensitive": false,
 				"find_history":
 				[
+					"Python",
+					"python",
+					"PHP",
 					"codeintel_language_settings"
 				],
 				"highlight": true,
@@ -91,7 +127,7 @@
 			},
 			"incremental_find":
 			{
-				"height": 23.0
+				"height": 51.0
 			},
 			"input":
 			{
@@ -105,7 +141,7 @@
 			"pinned_build_system": "",
 			"replace":
 			{
-				"height": 42.0
+				"height": 98.0
 			},
 			"save_all_on_build": true,
 			"select_file":
@@ -154,27 +190,86 @@
 			{
 				"selected_items":
 				[
+					[
+						"pr",
+						"prod"
+					],
+					[
+						"e",
+						"empty"
+					],
+					[
+						"in",
+						"input\tTag"
+					],
+					[
+						"ac",
+						"action\tAttr"
+					],
+					[
+						"fr",
+						"form\tTag"
+					],
+					[
+						"h",
+						"head\tTag"
+					]
 				]
 			},
 			"buffers":
 			[
 				{
-					"contents": "",
-					"file": "/G/Sublime Text3/Data/Packages/User/SublimeREPL.sublime-settings",
-					"file_size": -1,
-					"file_write_time": -1,
+					"file": "/D/xampp/htdocs/0322.php",
 					"settings":
 					{
-						"buffer_size": 0,
+						"buffer_size": 195,
+						"encoding": "UTF-8",
 						"line_ending": "Windows"
 					}
 				},
 				{
-					"file": "/G/Sublime Text3/Data/Packages/SublimeREPL/SublimeREPL.sublime-settings",
+					"file": "/D/xampp/htdocs/add.php",
 					"settings":
 					{
-						"buffer_size": 3930,
-						"line_ending": "Unix"
+						"buffer_size": 623,
+						"encoding": "UTF-8",
+						"line_ending": "Windows"
+					}
+				},
+				{
+					"file": "/D/xampp/htdocs/list.php",
+					"settings":
+					{
+						"buffer_size": 790,
+						"encoding": "UTF-8",
+						"line_ending": "Windows"
+					}
+				},
+				{
+					"file": "/D/xampp/htdocs/test2018/0329/add.php",
+					"settings":
+					{
+						"buffer_size": 765,
+						"encoding": "UTF-8",
+						"line_ending": "Windows"
+					}
+				},
+				{
+					"file": "/D/xampp/htdocs/add_form.html",
+					"settings":
+					{
+						"buffer_size": 265,
+						"encoding": "UTF-8",
+						"line_ending": "Windows"
+					}
+				},
+				{
+					"file": "/D/xampp/htdocs/test2018/0329/add_form.html",
+					"settings":
+					{
+						"buffer_size": 265,
+						"encoding": "UTF-8",
+						"line_ending": "Windows"
 					}
 				}
 			],
@@ -218,6 +313,17 @@
 			},
 			"file_history":
 			[
+				"/D/xampp/htdocs/test2018/aaa.php",
+				"/D/xampp/htdocs/index.html",
+				"/D/xampp/htdocs/test2018/0329/add.php",
+				"/D/xampp/htdocs/add_form.html",
+				"/D/xampp/htdocs/add.php",
+				"/D/xampp/htdocs/Sublime Text3/Data/Packages/Default/Preferences.sublime-settings",
+				"/D/xampp/htdocs/Sublime Text3/Data/Packages/User/Preferences.sublime-settings",
+				"/D/xampp/htdocs/Sublime Text3/Data/Packages/SublimeREPL/SublimeREPL.sublime-settings",
+				"/D/xampp/htdocs/Sublime Text3/Data/Packages/User/SublimeREPL.sublime-settings",
+				"/G/Sublime Text3/Data/Packages/SublimeREPL/SublimeREPL.sublime-settings",
+				"/G/Sublime Text3/Data/Packages/User/SublimeREPL.sublime-settings",
 				"/C/Users/user/Desktop/test.py",
 				"/G/Sublime Text3/Data/Packages/User/Anaconda.sublime-settings",
 				"/G/Sublime Text3/Data/Packages/Anaconda/Anaconda.sublime-settings",
@@ -228,7 +334,7 @@
 			],
 			"find":
 			{
-				"height": 23.0
+				"height": 51.0
 			},
 			"find_in_files":
 			{
@@ -242,10 +348,6 @@
 				"case_sensitive": false,
 				"find_history":
 				[
-					"Python",
-					"python",
-					"PHP",
-					"codeintel_language_settings"
 				],
 				"highlight": true,
 				"in_selection": false,
@@ -263,16 +365,108 @@
 			"groups":
 			[
 				{
-					"selected": 0,
+					"selected": 1,
 					"sheets":
 					[
 						{
 							"buffer": 0,
-							"file": "/G/Sublime Text3/Data/Packages/User/SublimeREPL.sublime-settings",
+							"file": "/D/xampp/htdocs/0322.php",
 							"semi_transient": false,
 							"settings":
 							{
-								"buffer_size": 0,
+								"buffer_size": 195,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										193,
+										193
+									]
+								],
+								"settings":
+								{
+									"is_init_dirty_state": false,
+									"origin_encoding": "UTF-8",
+									"syntax": "Packages/PHP/PHP.sublime-syntax"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 5,
+							"type": "text"
+						},
+						{
+							"buffer": 1,
+							"file": "/D/xampp/htdocs/add.php",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 623,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										586,
+										586
+									]
+								],
+								"settings":
+								{
+									"force_encoding": "UTF-8",
+									"is_init_dirty_state": false,
+									"origin_encoding": "UTF-8",
+									"syntax": "Packages/PHP/PHP.sublime-syntax"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 0,
+							"type": "text"
+						},
+						{
+							"buffer": 2,
+							"file": "/D/xampp/htdocs/list.php",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 790,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										474,
+										474
+									]
+								],
+								"settings":
+								{
+									"is_init_dirty_state": false,
+									"origin_encoding": "UTF-8",
+									"syntax": "Packages/PHP/PHP.sublime-syntax",
+									"translate_tabs_to_spaces": false
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 2,
+							"type": "text"
+						},
+						{
+							"buffer": 3,
+							"file": "/D/xampp/htdocs/test2018/0329/add.php",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 765,
 								"regions":
 								{
 								},
@@ -285,38 +479,9 @@
 								],
 								"settings":
 								{
-									"is_init_dirty_state": true,
-									"syntax": "Packages/JavaScript/JSON.sublime-syntax"
-								},
-								"translation.x": 0.0,
-								"translation.y": 0.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 0,
-							"type": "text"
-						},
-						{
-							"buffer": 1,
-							"file": "/G/Sublime Text3/Data/Packages/SublimeREPL/SublimeREPL.sublime-settings",
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 3930,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										958,
-										964
-									]
-								],
-								"settings":
-								{
 									"is_init_dirty_state": false,
-									"origin_encoding": "ASCII",
-									"syntax": "Packages/JavaScript/JSON.sublime-syntax",
+									"origin_encoding": "UTF-8",
+									"syntax": "Packages/PHP/PHP.sublime-syntax",
 									"translate_tabs_to_spaces": false
 								},
 								"translation.x": 0.0,
@@ -325,13 +490,78 @@
 							},
 							"stack_index": 1,
 							"type": "text"
+						},
+						{
+							"buffer": 4,
+							"file": "/D/xampp/htdocs/add_form.html",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 265,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										239,
+										239
+									]
+								],
+								"settings":
+								{
+									"is_init_dirty_state": false,
+									"origin_encoding": "UTF-8",
+									"syntax": "Packages/HTML/HTML.sublime-syntax"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 3,
+							"type": "text"
+						},
+						{
+							"buffer": 5,
+							"file": "/D/xampp/htdocs/test2018/0329/add_form.html",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 265,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										236,
+										236
+									]
+								],
+								"settings":
+								{
+									"is_init_dirty_state": false,
+									"origin_encoding": "UTF-8",
+									"syntax": "Packages/HTML/HTML.sublime-syntax"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 4,
+							"type": "text"
 						}
+					]
+				},
+				{
+					"sheets":
+					[
 					]
 				}
 			],
 			"incremental_find":
 			{
-				"height": 23.0
+				"height": 51.0
 			},
 			"input":
 			{
@@ -346,11 +576,18 @@
 						0,
 						1,
 						1
+					],
+					[
+						1,
+						0,
+						2,
+						1
 					]
 				],
 				"cols":
 				[
 					0.0,
+					0.973958333333,
 					1.0
 				],
 				"rows":
@@ -365,11 +602,11 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,2,3,-1,-1,-1,-1,885,517,347,1173",
+			"position": "0,2,3,-32000,-32000,-1,-1,988,578,450,1655",
 			"project": "",
 			"replace":
 			{
-				"height": 42.0
+				"height": 98.0
 			},
 			"save_all_on_build": true,
 			"select_file":
@@ -404,15 +641,15 @@
 			{
 			},
 			"show_minimap": true,
-			"show_open_files": false,
+			"show_open_files": true,
 			"show_tabs": true,
-			"side_bar_visible": true,
+			"side_bar_visible": false,
 			"side_bar_width": 150.0,
 			"status_bar_visible": true,
 			"template_settings":
 			{
 			},
-			"window_id": 1,
+			"window_id": 3,
 			"workspace_name": ""
 		}
 	],
