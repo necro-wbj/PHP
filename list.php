@@ -19,13 +19,13 @@ try {
 	exit;
 }
 //查詢
-//等同 $stmt = $db->query('select * from moneybook');
+//等同 $stmt = $db->query('select name,cost from moneybook');
 $stmt = $db->prepare('select * from moneybook');
 $stmt->execute();
 echo '<table border=1>';
 while($row = $stmt->fetch()){  //小心,此處的=號是把右邊的值存往左側
 	echo '<tr>';
-	echo '<td>'.$row['m_id'].'</td>';
+	//echo '<td>'.$row['m_id'].'</td>';
 	echo '<td>'.$row['name'].'</td>';
 	echo '<td>'.$row['cost'].'</td>';
 	echo '<td>';
