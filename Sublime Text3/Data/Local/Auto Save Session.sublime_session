@@ -2,7 +2,7 @@
 	"folder_history":
 	[
 	],
-	"last_version": 3143,
+	"last_version": 3176,
 	"last_window_id": 4,
 	"log_indexing": false,
 	"settings":
@@ -191,6 +191,26 @@
 				"selected_items":
 				[
 					[
+						"re",
+						"responseText"
+					],
+					[
+						"js",
+						"json_encode"
+					],
+					[
+						"t",
+						"this"
+					],
+					[
+						"va",
+						"val"
+					],
+					[
+						"add",
+						"addEventListener"
+					],
+					[
 						"a",
 						"addEventListener"
 					],
@@ -250,16 +270,16 @@
 					"file": "/D/xampp/htdocs/0503/index.html",
 					"settings":
 					{
-						"buffer_size": 997,
+						"buffer_size": 1935,
 						"encoding": "UTF-8",
 						"line_ending": "Windows"
 					}
 				},
 				{
-					"file": "/D/xampp/htdocs/add_form.html",
+					"file": "/D/xampp/htdocs/0503/add.php",
 					"settings":
 					{
-						"buffer_size": 291,
+						"buffer_size": 638,
 						"encoding": "UTF-8",
 						"line_ending": "Windows"
 					}
@@ -305,9 +325,9 @@
 			},
 			"file_history":
 			[
-				"/D/xampp/htdocs/list.php",
-				"/D/xampp/htdocs/add_form.html",
 				"/D/xampp/htdocs/add.php",
+				"/D/xampp/htdocs/add_form.html",
+				"/D/xampp/htdocs/list.php",
 				"/D/xampp/htdocs/0322.php",
 				"/D/xampp/htdocs/test2018/0329/add_form.html",
 				"/D/xampp/htdocs/test2018/0329/add.php",
@@ -329,7 +349,7 @@
 			],
 			"find":
 			{
-				"height": 40.0
+				"height": 41.0
 			},
 			"find_in_files":
 			{
@@ -370,24 +390,26 @@
 							"semi_transient": false,
 							"settings":
 							{
-								"buffer_size": 997,
+								"buffer_size": 1935,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										941,
-										941
+										836,
+										836
 									]
 								],
 								"settings":
 								{
+									"is_init_dirty_state": false,
+									"origin_encoding": "UTF-8",
 									"syntax": "Packages/HTML/HTML.sublime-syntax",
 									"translate_tabs_to_spaces": false
 								},
 								"translation.x": 0.0,
-								"translation.y": 480.0,
+								"translation.y": 384.0,
 								"zoom_level": 1.0
 							},
 							"stack_index": 0,
@@ -395,24 +417,24 @@
 						},
 						{
 							"buffer": 1,
-							"file": "/D/xampp/htdocs/add_form.html",
+							"file": "/D/xampp/htdocs/0503/add.php",
 							"semi_transient": false,
 							"settings":
 							{
-								"buffer_size": 291,
+								"buffer_size": 638,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										143,
-										217
+										638,
+										638
 									]
 								],
 								"settings":
 								{
-									"syntax": "Packages/HTML/HTML.sublime-syntax"
+									"syntax": "Packages/PHP/PHP.sublime-syntax"
 								},
 								"translation.x": 0.0,
 								"translation.y": 0.0,
@@ -431,7 +453,7 @@
 			],
 			"incremental_find":
 			{
-				"height": 40.0
+				"height": 41.0
 			},
 			"input":
 			{
@@ -476,7 +498,7 @@
 			"project": "",
 			"replace":
 			{
-				"height": 76.0
+				"height": 78.0
 			},
 			"save_all_on_build": true,
 			"select_file":

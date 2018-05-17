@@ -191,6 +191,34 @@
 				"selected_items":
 				[
 					[
+						"a",
+						"addEventListener"
+					],
+					[
+						"c",
+						"click"
+					],
+					[
+						"s",
+						"showNode"
+					],
+					[
+						"ge",
+						"getElementById"
+					],
+					[
+						"d",
+						"document"
+					],
+					[
+						"fun",
+						"function"
+					],
+					[
+						"di",
+						"div\tTag"
+					],
+					[
 						"pr",
 						"prod"
 					],
@@ -219,55 +247,30 @@
 			"buffers":
 			[
 				{
-					"file": "/D/xampp/htdocs/0322.php",
+					"file": "/D/xampp/htdocs/0503/index.html",
 					"settings":
 					{
-						"buffer_size": 195,
+						"buffer_size": 997,
 						"encoding": "UTF-8",
 						"line_ending": "Windows"
 					}
 				},
 				{
-					"file": "/D/xampp/htdocs/add.php",
+					"contents": "Package Control Messages\n========================\n\nChineseLocalizations\n--------------------\n\n  1.11.3 1.11.2\n  更新德语翻译，修复mnemonic问题\n  \n  Update German translation, bugfix about mnemonic\n  \n  \n  1.11.1\n  新加语言bug修复\n  \n  bugfix for new languages support\n  \n  \n  1.11.0\n  除了目前已经支持的繁简中文日语，新增支持俄语、西班牙语、法语等欧洲语言。德语也在等待pull requests中。\n  \n  Add support for Русский(Russian) Español(Spanish) Հայերեն(Armenian) Svenska(Swedish) Français(French)\n  \n  \n  1.10.0\n  Fix #20\n  合并繁体中文翻译pull requests\n  翻译更新到3152，支持到3156.\n  \n  Support Sublime Text 3152+, update translation to 3156.\n\n  1.11.3 1.11.2\n  更新德语翻译，修复mnemonic问题\n  \n  Update German translation, bugfix about mnemonic\n  \n  \n  1.11.1\n  新加语言bug修复\n  \n  bugfix for new languages support\n  \n  \n  1.11.0\n  除了目前已经支持的繁简中文日语，新增支持俄语、西班牙语、法语等欧洲语言。德语也在等待pull requests中。\n  \n  Add support for Русский(Russian) Español(Spanish) Հայերեն(Armenian) Svenska(Swedish) Français(French)\n  \n  \n  1.10.0\n  Fix #20\n  合并繁体中文翻译pull requests\n  翻译更新到3152，支持到3156.\n  \n  Support Sublime Text 3152+, update translation to 3156.\n\n  1.11.3 1.11.2\n  更新德语翻译，修复mnemonic问题\n  \n  Update German translation, bugfix about mnemonic\n  \n  \n  1.11.1\n  新加语言bug修复\n  \n  bugfix for new languages support\n  \n  \n  1.11.0\n  除了目前已经支持的繁简中文日语，新增支持俄语、西班牙语、法语等欧洲语言。德语也在等待pull requests中。\n  \n  Add support for Русский(Russian) Español(Spanish) Հայերեն(Armenian) Svenska(Swedish) Français(French)\n  \n  \n  1.10.0\n  Fix #20\n  合并繁体中文翻译pull requests\n  翻译更新到3152，支持到3156.\n  \n  Support Sublime Text 3152+, update translation to 3156.\n\n  1.11.3 1.11.2\n  更新德语翻译，修复mnemonic问题\n  \n  Update German translation, bugfix about mnemonic\n  \n  \n  1.11.1\n  新加语言bug修复\n  \n  bugfix for new languages support\n  \n  \n  1.11.0\n  除了目前已经支持的繁简中文日语，新增支持俄语、西班牙语、法语等欧洲语言。德语也在等待pull requests中。\n  \n  Add support for Русский(Russian) Español(Spanish) Հայերեն(Armenian) Svenska(Swedish) Français(French)\n  \n  \n  1.10.0\n  Fix #20\n  合并繁体中文翻译pull requests\n  翻译更新到3152，支持到3156.\n  \n  Support Sublime Text 3152+, update translation to 3156.\n",
 					"settings":
 					{
-						"buffer_size": 623,
-						"encoding": "UTF-8",
-						"line_ending": "Windows"
-					}
-				},
-				{
-					"file": "/D/xampp/htdocs/list.php",
-					"settings":
-					{
-						"buffer_size": 790,
-						"encoding": "UTF-8",
-						"line_ending": "Windows"
-					}
-				},
-				{
-					"file": "/D/xampp/htdocs/test2018/0329/add.php",
-					"settings":
-					{
-						"buffer_size": 765,
-						"encoding": "UTF-8",
-						"line_ending": "Windows"
+						"buffer_size": 1977,
+						"line_ending": "Windows",
+						"name": "Package Control Messages",
+						"read_only": true,
+						"scratch": true
 					}
 				},
 				{
 					"file": "/D/xampp/htdocs/add_form.html",
 					"settings":
 					{
-						"buffer_size": 265,
-						"encoding": "UTF-8",
-						"line_ending": "Windows"
-					}
-				},
-				{
-					"file": "/D/xampp/htdocs/test2018/0329/add_form.html",
-					"settings":
-					{
-						"buffer_size": 265,
+						"buffer_size": 291,
 						"encoding": "UTF-8",
 						"line_ending": "Windows"
 					}
@@ -313,11 +316,14 @@
 			},
 			"file_history":
 			[
-				"/D/xampp/htdocs/test2018/aaa.php",
-				"/D/xampp/htdocs/index.html",
-				"/D/xampp/htdocs/test2018/0329/add.php",
+				"/D/xampp/htdocs/list.php",
 				"/D/xampp/htdocs/add_form.html",
 				"/D/xampp/htdocs/add.php",
+				"/D/xampp/htdocs/0322.php",
+				"/D/xampp/htdocs/test2018/0329/add_form.html",
+				"/D/xampp/htdocs/test2018/0329/add.php",
+				"/D/xampp/htdocs/test2018/aaa.php",
+				"/D/xampp/htdocs/index.html",
 				"/D/xampp/htdocs/Sublime Text3/Data/Packages/Default/Preferences.sublime-settings",
 				"/D/xampp/htdocs/Sublime Text3/Data/Packages/User/Preferences.sublime-settings",
 				"/D/xampp/htdocs/Sublime Text3/Data/Packages/SublimeREPL/SublimeREPL.sublime-settings",
@@ -334,7 +340,7 @@
 			],
 			"find":
 			{
-				"height": 51.0
+				"height": 40.0
 			},
 			"find_in_files":
 			{
@@ -348,6 +354,7 @@
 				"case_sensitive": false,
 				"find_history":
 				[
+					"button"
 				],
 				"highlight": true,
 				"in_selection": false,
@@ -370,57 +377,57 @@
 					[
 						{
 							"buffer": 0,
-							"file": "/D/xampp/htdocs/0322.php",
+							"file": "/D/xampp/htdocs/0503/index.html",
 							"semi_transient": false,
 							"settings":
 							{
-								"buffer_size": 195,
+								"buffer_size": 997,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										193,
-										193
+										941,
+										941
 									]
 								],
 								"settings":
 								{
 									"is_init_dirty_state": false,
 									"origin_encoding": "UTF-8",
-									"syntax": "Packages/PHP/PHP.sublime-syntax"
+									"syntax": "Packages/HTML/HTML.sublime-syntax",
+									"translate_tabs_to_spaces": false
 								},
 								"translation.x": 0.0,
-								"translation.y": 0.0,
+								"translation.y": 480.0,
 								"zoom_level": 1.0
 							},
-							"stack_index": 5,
+							"stack_index": 1,
 							"type": "text"
 						},
 						{
 							"buffer": 1,
-							"file": "/D/xampp/htdocs/add.php",
 							"semi_transient": false,
 							"settings":
 							{
-								"buffer_size": 623,
+								"buffer_size": 1977,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										586,
-										586
+										1977,
+										1977
 									]
 								],
 								"settings":
 								{
-									"force_encoding": "UTF-8",
-									"is_init_dirty_state": false,
-									"origin_encoding": "UTF-8",
-									"syntax": "Packages/PHP/PHP.sublime-syntax"
+									"auto_indent": false,
+									"syntax": "Packages/Text/Plain text.tmLanguage",
+									"tab_width": 2,
+									"word_wrap": true
 								},
 								"translation.x": 0.0,
 								"translation.y": 0.0,
@@ -431,124 +438,32 @@
 						},
 						{
 							"buffer": 2,
-							"file": "/D/xampp/htdocs/list.php",
+							"file": "/D/xampp/htdocs/add_form.html",
 							"semi_transient": false,
 							"settings":
 							{
-								"buffer_size": 790,
+								"buffer_size": 291,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										474,
-										474
+										143,
+										217
 									]
 								],
 								"settings":
 								{
 									"is_init_dirty_state": false,
 									"origin_encoding": "UTF-8",
-									"syntax": "Packages/PHP/PHP.sublime-syntax",
-									"translate_tabs_to_spaces": false
+									"syntax": "Packages/HTML/HTML.sublime-syntax"
 								},
 								"translation.x": 0.0,
 								"translation.y": 0.0,
 								"zoom_level": 1.0
 							},
 							"stack_index": 2,
-							"type": "text"
-						},
-						{
-							"buffer": 3,
-							"file": "/D/xampp/htdocs/test2018/0329/add.php",
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 765,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										0,
-										0
-									]
-								],
-								"settings":
-								{
-									"is_init_dirty_state": false,
-									"origin_encoding": "UTF-8",
-									"syntax": "Packages/PHP/PHP.sublime-syntax",
-									"translate_tabs_to_spaces": false
-								},
-								"translation.x": 0.0,
-								"translation.y": 0.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 1,
-							"type": "text"
-						},
-						{
-							"buffer": 4,
-							"file": "/D/xampp/htdocs/add_form.html",
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 265,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										239,
-										239
-									]
-								],
-								"settings":
-								{
-									"is_init_dirty_state": false,
-									"origin_encoding": "UTF-8",
-									"syntax": "Packages/HTML/HTML.sublime-syntax"
-								},
-								"translation.x": 0.0,
-								"translation.y": 0.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 3,
-							"type": "text"
-						},
-						{
-							"buffer": 5,
-							"file": "/D/xampp/htdocs/test2018/0329/add_form.html",
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 265,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										236,
-										236
-									]
-								],
-								"settings":
-								{
-									"is_init_dirty_state": false,
-									"origin_encoding": "UTF-8",
-									"syntax": "Packages/HTML/HTML.sublime-syntax"
-								},
-								"translation.x": 0.0,
-								"translation.y": 0.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 4,
 							"type": "text"
 						}
 					]
@@ -561,7 +476,7 @@
 			],
 			"incremental_find":
 			{
-				"height": 51.0
+				"height": 40.0
 			},
 			"input":
 			{
@@ -602,11 +517,11 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,2,3,-32000,-32000,-1,-1,988,578,450,1655",
+			"position": "0,2,3,-1,-1,-1,-1,719,355,181,915",
 			"project": "",
 			"replace":
 			{
-				"height": 98.0
+				"height": 76.0
 			},
 			"save_all_on_build": true,
 			"select_file":

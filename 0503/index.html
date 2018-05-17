@@ -13,6 +13,27 @@
 			var x=document.getElementById(id);
 			x.style.display="none";
 		}
+		function add2sever(){
+			var data;
+			data={prod:document.getElementById("prod").value
+				,price:document.getElementById("price").value}
+			var xhr=new XMLHttpRequest();
+			xhr.open("POST","add.php");
+			xhr.setRequestHeader("Content-Type","application/json;charset=UTF-8");
+			xhr.onreadystatechange = function(){//現在也可以用xhr.onload
+				if(this.readyState==4 ){
+					if(this.status == 201){
+						console.log(this.responseText);
+						hideNode("edit_form");
+						showNode("show_add_btn");
+					}else{
+						console.log(this.responseText);
+						alert('新增失敗');
+					}
+				}
+			};
+			xhr.send(JSON.stringify(data));
+		}
 	</script>
 </head>
 <body>
@@ -29,8 +50,12 @@
 	<script type="text/javascript">
 		(function(){
 			hideNode("edit_form");
+			hideNode("update_btn");
 			document.getElementById("show_add_btn").addEventListener("click",function(){showNode("edit_form");});
 			document.getElementById("cancel_btn").addEventListener("click",function(){hideNode("edit_form");});
+			document.getElementById("show_add_btn").addEventListener("click",function(){hideNode("show_add_btn");});
+			document.getElementById("cancel_btn").addEventListener("click",function(){showNode("show_add_btn");});
+			document.getElementById("add_btn").addEventListener("click",add2sever);
 		})();
 	</script>
 </body>
