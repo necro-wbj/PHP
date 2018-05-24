@@ -13,6 +13,26 @@
 			var x=document.getElementById(id);
 			x.style.display="none";
 		}
+		function getlist(){
+				var xhr=new XMLHttpRequest();
+				xhr.open("GET","list.php");
+				xhr.onreadystatechange = function(){
+					if(this.readyState==4 ){
+						if(this.status == 200){
+							console.log(this.responseText);
+							var all = JSON.parse(this.responseText);
+							for(var i=all.length-1;i>=0;i--){
+								insert2list(all[i]);
+							}
+
+						}else{
+							console.log(this.responseText);
+						}
+					}
+				}
+				xhr.send();
+
+		}
 		function add2sever(){
 			var data;
 			data={prod:document.getElementById("prod").value
@@ -26,9 +46,48 @@
 						console.log(this.responseText);
 						hideNode("edit_form");
 						showNode("show_add_btn");
+						// insert2list(JSON.parse(this.responseText));
 					}else{
 						console.log(this.responseText);
 						alert('新增失敗');
+					}
+				}
+			};
+			xhr.send(JSON.stringify(data));
+		}
+		function insert2list(data){
+			var tb1 =document.getElementById('list');
+			var row =tb1.insertRow(0);
+			var ce1,ce2,ce3
+			ce1=row.insertCell(0);
+			ce2=row.insertCell(1);
+			ce3=row.insertCell(2);
+			ce1.appendChild(document.createTextNode(data.prod));
+			ce2.appendChild(document.createTextNode(data.price));
+			var btn1,btn2;
+			btn1=document.createElement('button');
+			btn1.setAttribute('t_id',data.id);
+			btn1.appendChild(document.createTextNode('刪除'));
+			btn1.addEventListener('click',del_click);
+			btn2=document.createElement('button');
+			btn2.setAttribute('t_id',data.id);
+			btn2.appendChild(document.createTextNode('修改'));
+			ce3.appendChild(btn1);
+			ce3.appendChild(btn2);
+
+		}
+		function del_click(ev){
+			var data={id:ev.target.getAttribute("t_id")};
+			var xhr=new XMLHttpRequest();
+			xhr.open("POST","del.php");
+			xhr.setRequestHeader("Content-Type","application/json;charset=UTF-8");
+			xhr.onreadystatechange = function(){//現在也可以用xhr.onload
+				if(this.readyState==4 ){
+					if(this.status == 200){
+						console.log(this.responseText);
+						}else{
+						console.log(this.responseText);
+						alert('刪除失敗');
 					}
 				}
 			};
@@ -56,6 +115,7 @@
 			document.getElementById("show_add_btn").addEventListener("click",function(){hideNode("show_add_btn");});
 			document.getElementById("cancel_btn").addEventListener("click",function(){showNode("show_add_btn");});
 			document.getElementById("add_btn").addEventListener("click",add2sever);
+			getlist();
 		})();
 	</script>
 </body>
