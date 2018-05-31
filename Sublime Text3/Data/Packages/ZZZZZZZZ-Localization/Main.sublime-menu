@@ -1,52 +1,52 @@
 [
     {
+        "mnemonic": "F", 
         "caption": "檔案(F)", 
-        "id": "file", 
-        "mnemonic": "F"
+        "id": "file"
     }, 
     {
+        "mnemonic": "E", 
         "caption": "編輯(E)", 
-        "id": "edit", 
-        "mnemonic": "E"
+        "id": "edit"
     }, 
     {
+        "mnemonic": "S", 
         "caption": "選擇(S)", 
-        "id": "selection", 
-        "mnemonic": "S"
+        "id": "selection"
     }, 
     {
+        "mnemonic": "I", 
         "caption": "尋找(I)", 
-        "id": "find", 
-        "mnemonic": "I"
+        "id": "find"
     }, 
     {
+        "mnemonic": "V", 
         "caption": "檢視(V)", 
-        "id": "view", 
-        "mnemonic": "V"
+        "id": "view"
     }, 
     {
+        "mnemonic": "G", 
         "caption": "前往(G)", 
-        "id": "goto", 
-        "mnemonic": "G"
+        "id": "goto"
     }, 
     {
+        "mnemonic": "T", 
         "caption": "工具(T)", 
-        "id": "tools", 
-        "mnemonic": "T"
+        "id": "tools"
     }, 
     {
+        "mnemonic": "P", 
         "caption": "專案(P)", 
-        "id": "project", 
-        "mnemonic": "P"
+        "id": "project"
     }, 
     {
+        "mnemonic": "N", 
         "caption": "設定(N)", 
-        "id": "preferences", 
-        "mnemonic": "N"
+        "id": "preferences"
     }, 
     {
+        "mnemonic": "H", 
         "caption": "說明(H)", 
-        "id": "help", 
-        "mnemonic": "H"
+        "id": "help"
     }
 ]
